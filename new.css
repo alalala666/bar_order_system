@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+ margin:0;
+ padding:0;
+}
+
+body
+ {
+            background-image: url(bar.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+ }
+
+#header
+{
+ width:100%;
+ height:50px;
+ background:#ffffff;
+ color:#000000;
+ font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ font-size:35px;
+ text-align:center;
+}
+#header a
+{
+ color:#000000;
+ text-decoration:blink;
+}
+#body
+{
+ margin-top:50px;
+}
+table
+{
+ width:80%;
+ font-family:Tahoma, Geneva, sans-serif;
+ font-weight:bolder;
+ 
+ color:#000000;
+ margin-bottom:80px;
+ background :"ffffff"
+}
+table a
+{
+ text-decoration:none;
+ color:#000000;
+}
+table,td,th
+{
+ border-collapse:collapse;
+ border:solid #000000 1px;
+ padding:20px;
+ background :"ffffff"
+}
+table td input
+{
+ width:97%;
+ height:35px;
+ border:dashed #000000 1px;
+ padding-left:15px;
+ font-family:Verdana, Geneva, sans-serif;
+ box-shadow:0px 0px 0px rgba(1,0,0,0.2);
+ outline:none;
+}
+table td input:focus
+{
+ box-shadow:inset 1px 1px 1px rgba(1,0,0,0.2);
+ outline:none;
+}
+table td button
+{
+ border:solid #000000 0px;
+ box-shadow:1px 1px 1px rgba(1,0,0,0.2);
+ outline:none;
+ background:#000000;
+ padding:9px 15px 9px 15px;
+ color:#ffffff;
+ font-family:Arial, Helvetica, sans-serif;
+ font-weight:bolder;
+ border-radius:3px;
+ width:49.5%;
+}
+table td button:active
+{
+ position:relative;
+ top:1px;
+}
